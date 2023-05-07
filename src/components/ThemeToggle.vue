@@ -2,7 +2,7 @@
 defineProps({
   light: {
     type: Boolean,
-    required: true,
+    required: false,
     default: false,
   },
 });

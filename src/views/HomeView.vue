@@ -33,6 +33,15 @@ const stacks = ref([
   },
 ]);
 
+const projects = ref([
+  {
+    image: 'balai_wilayah_sungai_kalimantan_3.png',
+    name: 'Balai Wilayah Sungai Kalimantan III',
+    description:
+      'A website for display information from Balai Wilayah Sungai Kalimantan III',
+  },
+]);
+
 const isMobile = computed(() => {
   return screen.width < 768;
 });
@@ -141,7 +150,11 @@ const handleClickMenu = () => {
       <p class="mt-2 text-center">These are some projects I have made.</p>
     </div>
     <div class="flex flex-wrap items-center justify-center gap-4">
-      <ProjectCard v-for="item in 2" :key="item"></ProjectCard>
+      <ProjectCard
+        v-for="project in projects"
+        :key="project.name"
+        :project="project"
+      ></ProjectCard>
     </div>
   </section>
 
