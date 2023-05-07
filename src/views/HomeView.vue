@@ -167,7 +167,7 @@ const handleClickMenu = () => {
   <!-- on the web -->
   <section class="py-10">
     <div class="mx-auto mb-8 max-w-[550px]">
-      <h3 class="text-center text-2xl font-bold">On the web.</h3>
+      <h3 class="text-center text-2xl font-bold">On the Web.</h3>
     </div>
     <div class="flex flex-col items-center justify-center gap-2 md:flex-row">
       <a
