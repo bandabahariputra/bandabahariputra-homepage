@@ -138,7 +138,7 @@ const handleClickMenu = () => {
   <section class="py-10">
     <div class="mb-8">
       <h3 class="text-center text-2xl font-bold">Something I've Built.</h3>
-      <p class="mt-2 text-center">These are some projects I made.</p>
+      <p class="mt-2 text-center">These are some projects I have made.</p>
     </div>
     <div class="flex flex-wrap items-center justify-center gap-4">
       <ProjectCard v-for="item in 2" :key="item"></ProjectCard>
@@ -151,7 +151,7 @@ const handleClickMenu = () => {
       <h3 class="text-center text-2xl font-bold">Get in Touch.</h3>
       <p class="mt-2 text-center">
         Feel free to drop me a message if you have some interesting offer or
-        just want to say hi, I'll try my best to get back to you!
+        just want to say hi, I'll try my best to reach you back!
       </p>
     </div>
     <div class="flex justify-center">
