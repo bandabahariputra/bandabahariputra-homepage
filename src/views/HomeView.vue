@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import StackCard from '@/components/StackCard.vue';
 import ProjectCard from '@/components/ProjectCard.vue';
+import { useProjects } from '../composables/useProjects';
 import JavascriptIcon from '@/assets/images/javascript.png';
 import VueIcon from '@/assets/images/vue.png';
 import NuxtIcon from '@/assets/images/nuxt.png';
@@ -26,14 +27,7 @@ const stacks = ref([
   },
 ]);
 
-const projects = ref([
-  {
-    image: 'balai_wilayah_sungai_kalimantan_3.png',
-    name: 'Balai Wilayah Sungai Kalimantan III',
-    description:
-      'A website for display information from Balai Wilayah Sungai Kalimantan III',
-  },
-]);
+const { projects } = useProjects();
 </script>
 
 <template>

@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div>
+  <RouterLink :to="`/projects/${project.slug}`">
     <div
       class="mx-auto mb-4 h-[192px] w-[320px] overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-700 transition-all dark:border-neutral-200 dark:bg-neutral-200"
     >
@@ -24,5 +24,5 @@ defineProps({
         {{ project.description }}
       </p>
     </div>
-  </div>
+  </RouterLink>
 </template>
