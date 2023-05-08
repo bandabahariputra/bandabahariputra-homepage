@@ -122,7 +122,15 @@ const { projects } = useProjects();
         class="flex items-center gap-2 rounded-lg px-4 py-2 text-neutral-300 transition-all hover:bg-zinc-800 dark:bg-zinc-200 dark:text-neutral-700 dark:hover:bg-zinc-300"
       >
         <i class="ph-bold ph-github-logo"></i>
-        @bandabahariputra
+        bandabahariputra
+      </a>
+      <a
+        href="https://www.linkedin.com/in/banda-bahari-putra-40b311199"
+        target="_blank"
+        class="flex items-center gap-2 rounded-lg px-4 py-2 text-neutral-300 transition-all hover:bg-zinc-800 dark:bg-zinc-200 dark:text-neutral-700 dark:hover:bg-zinc-300"
+      >
+        <i class="ph-bold ph-linkedin-logo"></i>
+        bandabahariputra
       </a>
       <a
         href="https://www.instagram.com/bandabahariputra"
