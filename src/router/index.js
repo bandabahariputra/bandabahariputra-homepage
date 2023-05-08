@@ -16,6 +16,9 @@ const router = createRouter({
       component: ProjectView,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0, behavior: 'smooth' };
+  },
 });
 
 export default router;
