@@ -20,7 +20,6 @@ const handleChangeTheme = () => {
   const body = document.querySelector('body');
 
   body.classList.toggle('dark');
-
   light.value = body.classList.contains('dark');
 };
 </script>
