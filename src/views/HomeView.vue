@@ -47,14 +47,12 @@ const { projects } = useProjects();
     </div>
     <div class="space-y-4">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        aliquet sit amet nulla ut ullamcorper. In euismod purus a nulla viverra,
-        sit amet dictum erat finibus.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        aliquet sit amet nulla ut ullamcorper. In euismod purus a nulla viverra,
-        sit amet dictum erat finibus.
+        Hello, I'm a software engineer with a focus on creating immersive web
+        experiences. With a deep understanding of HTML, CSS, and JavaScript, I
+        have the ability to transform ideas into visually striking and highly
+        functional websites. I am passionate about optimizing user experiences,
+        ensuring that every website I work on is responsive, fast, and
+        intuitive.
       </p>
     </div>
   </section>
