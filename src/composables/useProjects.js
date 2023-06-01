@@ -12,6 +12,14 @@ const useProjects = () => {
       demo: 'https://sda.pu.go.id/balai/bwskalimantan3',
     },
     {
+      image: 'car_rental.png',
+      name: 'Car Rental',
+      slug: 'car-rental',
+      description: 'A landing page to show the car to be rented',
+      stacks: ['Nuxt'],
+      demo: 'https://aryarentalcar.com',
+    },
+    {
       image: 'quran_online.png',
       name: 'Quran Online',
       slug: 'quran-online',

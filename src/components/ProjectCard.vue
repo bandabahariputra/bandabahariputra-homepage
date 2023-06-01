@@ -18,7 +18,7 @@ defineProps({
         class="h-full w-full object-cover object-top"
       />
     </div>
-    <div class="text-center">
+    <div class="mx-auto w-4/5 text-center">
       <h4 class="mb-2 font-medium">{{ project.name }}</h4>
       <p class="text-sm text-neutral-300 transition-all dark:text-zinc-700">
         {{ project.description }}
