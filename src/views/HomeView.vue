@@ -79,7 +79,7 @@ const { projects } = useProjects();
       <h3 class="text-center text-2xl font-bold">Something I've Built.</h3>
       <p class="mt-2 text-center">These are some projects I have made.</p>
     </div>
-    <div class="flex flex-wrap items-center justify-center gap-4">
+    <div class="flex flex-wrap items-start justify-center gap-4">
       <ProjectCard
         v-for="project in projects"
         :key="project.name"
