@@ -48,11 +48,10 @@ const { projects } = useProjects();
     <div class="space-y-4">
       <p>
         Hello, I'm a software engineer with a focus on creating immersive web
-        experiences. With a deep understanding of HTML, CSS, and JavaScript, I
-        have the ability to transform ideas into visually striking and highly
-        functional websites. I am passionate about optimizing user experiences,
-        ensuring that every website I work on is responsive, fast, and
-        intuitive.
+        experiences. With a deep understanding of web development, I have the
+        ability to transform ideas into visually striking and highly functional
+        websites. I am passionate about optimizing user experiences, ensuring
+        that every website I work on is responsive, fast, and intuitive.
       </p>
     </div>
   </section>

@@ -11,6 +11,14 @@ const useProjects = () => {
       stacks: ['PHP', 'Codeigniter', 'MySQL'],
       demo: 'https://sda.pu.go.id/balai/bwskalimantan3',
     },
+    {
+      image: 'quran_online.png',
+      name: 'Quran Online',
+      slug: 'quran-online',
+      description: 'An app to read quran and show prayer schedule',
+      stacks: ['Nuxt'],
+      demo: 'https://quran-onlen.netlify.app',
+    },
   ]);
 
   const getProject = (slug) => {
